@@ -7,3 +7,6 @@ ceny = {"ananas": 12, "kiwi": 2, "poziomka":"strasznie duzo "}
 # wyswietl ceny owockow
 ulubiony = owocki[0]  # ananas
 print(f"Moj ulubiony owoc to {ulubiony} i kosztuje jakies {ceny[ulubiony]}zl.")
+
+for i in owocki:
+    print(f"Ostatnio {owocki[i]} kosztuje {ceny[owocki[i]]} zl.")

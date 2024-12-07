@@ -5,3 +5,5 @@ Repository for the purpose of learning git basics
 Content:
 - Python basics
 - generating test data
+
+Created 2024-12-07

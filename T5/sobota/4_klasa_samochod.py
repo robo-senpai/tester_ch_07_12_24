@@ -7,6 +7,7 @@ class Samochod:
         self.model = model
         self.predkosc = 0 # predkosc poczatkowa to 0km/h
         self.wlaczony_silnik = False # silnik jest wylaczony
+        self.kolor = "czerwony"
 
     def uruchom_silnik(self):
         # metoda klasy

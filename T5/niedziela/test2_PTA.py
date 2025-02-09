@@ -15,7 +15,7 @@ with sync_playwright() as p:
     # czekamy na przekierowanie do strony zalogowanego uzytkownika
     page.wait_for_url("**/logged-in-successfully/")
 
-    # sprawdzenie komunikatu 
+    # sprawdzenie komunikatu T5/niedziela/test2_PTA.pyc
     success_message = "Logged In Successfully"
     message = page.text_content("h1")
     print(f"komunikat to: {success_message}")

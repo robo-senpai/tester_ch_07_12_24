@@ -2,8 +2,8 @@
 from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
-    # start browser
-    browser = p.chromium.launch(headless=False)
+    # start browser - add (headless=False) to see browser
+    browser = p.chromium.launch
     # open new page
     page = browser.new_page()
     # got to page

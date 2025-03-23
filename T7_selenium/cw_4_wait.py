@@ -1,4 +1,3 @@
-from docutils.frontend import validate_encoding_and_error_handler
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
